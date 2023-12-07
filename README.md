@@ -8,7 +8,7 @@
 # japanRouteSearcher.js
 ----------------
 
-Fanenl Store by [CommandClick](https://github.com/puutaro/CommandClick) @puutaro
+Japan train roote searcher by [CommandClick](https://github.com/puutaro/CommandClick) @puutaro
 
 Table of Contents
 -------
@@ -16,8 +16,8 @@ Table of Contents
 * [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Usage](#usage)
-  * [Install fannel](#install-fannel)
   * [Web search](#web-search)
+  * [Link long press search](#link-long-press-search)
   * [Bookmark](#bookmark)
 * [Toolbar buttons](#toolbar-buttons)
   * [Play Button](#play-button)
@@ -28,7 +28,6 @@ Table of Contents
 	* [BOOKMARK MANAGER](#bookmark-manager)
 * [Setting variables](#setting-variables)
 	* [scriptFileName](#scriptfilename)
-* [How to register to this store](how-to-register-to-this-store)
 
 ## Installation
 --------------
@@ -50,18 +49,22 @@ Table of Contents
 
 Mostly, trigger each feature by **Long press**
 
-### Install fannel
-Long press QR iamge in order to install [fannel](https://github.com/puutaro/CommandClick/blob/master/md/developer/glossary.md#fannel.
-
 ### Web search
 
-Long press Play button 
-
+Long press Play button
 
 | phase          | description               |
 |----------------|-----------------------|
 | Highlight text | Search highlight text |
 | None           | Google search page    |
+
+### Link long press search
+
+Link url search by Long press bellow link
+
+- src anchor link
+- src ancher link
+
 
 ### Bookmark
 
@@ -79,7 +82,8 @@ Long press history menu button in left bottom.
 
 ### Play Button
 
-Launch `fannel` topic on github
+Launch japan route search site
+- Long press -> web search
 
 ### Edit Button
 
@@ -104,14 +108,14 @@ Create new bookmark by type new name.
 
 ### BOOKMARK MANAGER
 
-Edit bookmark list by `renameFannelStoreBookmarkName`
+Edit bookmark list by `renameJapanRouteSearcherBookmarkName`
 
-`renameFannelStoreBookmarkName`
+`renameJapanRouteSearcherBookmarkName`
 
-| value | description |
-| ----------- | ----------- |
-| blank | Delete tube url list name |
-| other | Rename tube url list name (auto comp prefix `bookmark`) |
+| value | description                                          |
+| ----------- |------------------------------------------------------|
+| blank | Delete tube url list name                            |
+| other | Rename tube url list name (auto comp prefix `route`) |
 
 ## Setting variables
 ---------
@@ -120,8 +124,3 @@ Edit bookmark list by `renameFannelStoreBookmarkName`
 
 Rename script name
 
-## How to register to this store
------------
-
-You can register this  store.  
-Check [detail procecdure](https://github.com/puutaro/commandclick-repository/blob/master/README.md#procedure-1)
