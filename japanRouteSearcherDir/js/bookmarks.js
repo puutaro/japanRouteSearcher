@@ -4,9 +4,10 @@ jsimport `${japanRouteSearcherMakeCreatorTsvPathForBookmarkListJsPath}`;
 launchBookmarkDialog();
 
 function launchBookmarkDialog() {
-    jsScript.readCmdValsCon("${0}");
-    const onLaunchBookmarkByDialog = jsScript.getCmdVal(
+    const cmdValsCon = jsScript.readCmdValsCon("${0}");
+    const onLaunchBookmarkByDialog = jsScript.subValOnlyValue(
         "onLaunchBookmarkByDialog",
+        cmdValsCon,
     ) === "ON";
     const EDIT_FILE_PATH = makeCreatorJSPathForBookmarkList(
         `${japanRouteSearcherEditDirPath}`,
